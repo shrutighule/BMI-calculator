@@ -1,0 +1,39 @@
+.container{
+  padding-left:  30px;
+  height: 520px;
+  width: 350px;
+  border: 2px solid black;
+  background-color: rgb(247, 222, 188);
+  border-radius: 10px;
+}
+input{
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-left: 10px;
+}
+
+button{
+  height: 40px;
+  width: 120px;
+  background-color: grey;
+  border: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  transition: all 0.3s;
+}
+button:hover{
+background-color: rgb(223, 219, 219);
+color: black;
+/* font-weight: 600; */
+}
+
+body{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
